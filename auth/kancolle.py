@@ -6,8 +6,8 @@ from tornado.gen import coroutine
 from tornado.escape import native_str, json_decode
 from tornado.curl_httpclient import CurlError
 from tornado.httpclient import HTTPError
-from utils.httpclient import AsyncHTTPClient
 
+from utils.httpclient import AsyncHTTPClient
 from config import proxy_host, proxy_port
 from auth.exceptions import OoiAuthError
 from auth import dmm
